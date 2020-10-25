@@ -1,0 +1,174 @@
+/* リセットcss */
+html, body, header, main, footer, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ vertical-align:baseline;
+ text-decoration: none;
+ list-style: none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+  text-decoration: none;
+  color: inherit;
+ }
+
+
+
+
+header {
+  background-image: url(images/image01.jpeg);
+  background-size: cover;
+  height: 790px;
+}
+
+.header-mask {
+  background-color: rgba(88, 87, 87, 0.445);
+  height: 790px;
+}
+
+.header-text h1 {
+  margin-left: 45vw;
+  font-size: 40px;
+  padding-top: 150px;
+  color: aliceblue;
+}
+
+.header-text h1:hover {
+  color: black;
+}
+
+main {
+  background-color: rgb(214, 183, 142);
+}
+
+.main-mask {
+  font-family: fantasy;
+  background-color: rgba(203, 208, 209, 0.212);
+}
+
+.main-wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+  padding: 20px 100px;
+}
+/* ポメくん */
+.pome-detail {
+  margin: auto;
+  width: 800px;
+  text-align: center;
+}
+
+.main-detail {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+/* ポメくん詳細 */
+.pome span {
+  font-family: serif;
+  font-size: 25px;
+  display: block;
+  margin: 10px 0;
+}
+
+.pome > ul {
+  display: inline-block;
+}
+
+.pome-pome {
+  text-align: left;
+  padding: 0 20px;
+}
+
+.pome li {
+  padding: 5px 0;
+}
+/* としくん詳細 */
+.toshi span {
+  font-family: serif;
+  font-size: 25px;
+  display: block;
+  margin: 10px 0;
+}
+
+.toshi > ul {
+  display: inline-block;
+}
+
+.toshi-toshi {
+  text-align: left;
+  padding: 0 20px;
+}
+
+.toshi li {
+  padding: 5px 0;
+}
+/* footer */
+footer {
+  background-image: url(images/image01.jpeg);
+  height: 600px;
+  background-size: cover;
+}
+
+.footer-mask {
+  background-color: rgba(88, 87, 87, 0.445);
+  height: 600px;
+}
+
+.footer-wrapper {
+  margin: auto;
+  width: 850px;
+  text-align: center;
+}
+
+.footer-wrapper > h1 {
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+.footer-contents {
+  margin: 50px 6vw;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.397);
+}
+
+.footer-content {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.youtube {
+  padding-left: 2vw;
+}
+
+.sns {
+  padding-top: 150px;
+  margin-right: 300px;
+}
+
+.sns a {
+  padding: 0 20px;
+}
+
+.fab {
+  color: rgba(0, 0, 0, 0.541);
+}
+
