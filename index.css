@@ -27,9 +27,7 @@ a {
   text-decoration: none;
   color: inherit;
  }
-
-
-
+/* リセットcss */
 
 header {
   background-image: url(images/image01.jpeg);
@@ -83,7 +81,7 @@ main {
 .main-detail {
   padding: 50px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 /* ポメくん詳細 */
 .pome span {
