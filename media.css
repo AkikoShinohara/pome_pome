@@ -139,5 +139,107 @@
     margin-right: 20px;
   }
   
+  @media (max-width: 414px) {
+    header {
+      height: 220px;
+    }
+    
+    .header-mask {
+      height: 220px;
+    }
+    
+    .header-text h1 {
+      font-size: 20px;
+      margin-left: 20vw;
+      padding-top: 50px;
+    }
+
+    .main-contents {
+      width: 30%;
+    }
+    
+    .main-contents h1 {
+      font-size: 20px;
+    }
+
+    /* ポメくん */
+    .pome-detail {
+      width: 100%;
+    }
+  
+    .main-detail {
+      display: block;
+      padding: 10px 0;
+    }
+  
+    .pome-detail h1 {
+      font-size: 20px;
+    }
+  
+    .pome-detail h2 {
+      font-size: 15px;
+    }
+  
+    .pome span {
+      font-size: 25px;
+    }
+  
+    .pome-pome {
+      padding: 0px 0px;
+    }
+  
+    .toshi span {
+      font-size: 25px;
+    }
+  
+    .toshi-toshi {
+      padding: 0px 0px;
+    }
+  
+    /* footer */
+    footer {
+      height: 280px;
+    }
+    
+    .footer-mask {
+      height: 280px;
+    }
   
   
+    .footer-wrapper {
+      width: 100%;
+    }
+    
+    .footer-wrapper > h1 {
+      font-size: 25px;
+      font-family: fantasy;
+    }
+    
+    .footer-contents {
+      margin: 10px 0vw;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.397);
+    }
+  
+    iframe {
+      height: 150px;
+      width: 200px;
+    }
+    
+    .footer-content {
+      padding: 30px 5px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .youtube {
+      padding-left: 0vw;
+    }
+    
+    .sns {
+      padding-top: 50px;
+      margin-right: 30px;
+    }
+
+
+  }
